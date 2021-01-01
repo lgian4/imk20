@@ -1,0 +1,60 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template/shop-homepage)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 56px;
+}
+
+.btn-primary {
+    background-color: #0880AE;
+    border-color: #0880AE;
+}
+
+.nav-pills .nav-link {
+    background-color: transparent;
+    font-size: 28px;
+    color: gray;
+}
+
+.nav-pills .nav-link.active {
+    background-color: transparent;
+    font-size: 28px;
+    color: black;
+}
+
+.item-home {
+    border-radius: 20px;
+}
+
+.item-home .item-nama {
+    font-size: 28px;
+}
+
+.item-home .item-harga {
+    font-size: 16px;
+}
+
+.frame {
+    border-radius: 20px;
+}
+
+.frame .frame-title {
+    font-size: 34px;
+}
+
+.frame a {
+    font-size: 16px;
+    color: #0880AE;
+    text-decoration: none;
+}
+
+.frame button {
+    font-size: 16px;
+    width: 100%;
+    color: white;
+    background-color: #0880AE;
+    text-decoration: none;
+}
