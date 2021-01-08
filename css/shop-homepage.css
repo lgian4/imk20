@@ -199,3 +199,23 @@
         .order-home:hover {
             box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.37) !important;
         }
+        
+        .shop-item {
+            border-radius: 20px;
+            box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.048);
+            padding: 1rem 1rem 1rem 1rem;
+            margin: 1rem 0rem 0rem 0rem;
+        }
+        
+        .shop-nama {
+            font-size: 28px;
+        }
+        
+        .shop-harga,
+        .shop-tanggal {
+            font-size: 16px;
+        }
+        
+        .shop-item:hover {
+            box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.37) !important;
+        }
