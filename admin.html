@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CCPP - Admin</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CCPP</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="product.html">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="event.html">Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="chat.html">Chat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="favorite.html">Favorit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="profile.html">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="admin.html">Admin</a>
+                    </li>
+                </ul>
+
+                <form class="form-inline my-2 my-md-0">
+                    <span class="mr-4 align-middle" style="margin-right:15px">Nama User</span>
+                    <a href="login.html" class="btn btn-danger">Keluar</a>
+                </form>
+            </div>
+
+
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-12 page-title  mt-4 ">Admin</div>
+
+            <div class="bd-example">
+                <!-- Nav tabs -->
+                <ul class="nav nav-pills ml-0 mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="pills-home-tab" style="padding: 0px;margin-right: 15px;" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Produk</a>
+                    </li>
+                    <li class="nav-item ml-3" role="presentation">
+                        <a class="nav-link" id="pills-profile-tab" style="padding: 0px;margin-right: 15px;" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Akun</a>
+                    </li>
+
+                    <li class="nav-item ml-3" role="presentation">
+                        <a class="nav-link" id="pills-profile-tab" style="padding: 0px;margin-right: 15px;" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Event</a>
+                    </li>
+
+
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-10">Verifikasi Produk yang akan di jual</div>
+
+
+                                <div class="shop-item col-12 shadow-lg  bg-white">
+                                    <div class="row">
+                                        <div class="shop-gambar col-1"><img src="asset/item-home-gambar.png" width="100%"> </div>
+                                        <div class="col-6">
+                                            <div class="shop-nama">Judul</div>
+                                            <div class="shop-harga">Rp 8.000,00</div>
+                                            <div class="shop-tanggal">Aktif</div>
+                                        </div>
+                                        <div class="col-2">
+                                            <a href="shop-produk.html" class="btn btn-lg btn-success position-relative top-50 start-50 translate-middle" style="width:100%;">Terima</a>
+                                        </div>
+                                        <div class="col-2">
+                                            <a href="shop-produk.html" class="btn btn-lg btn-danger position-relative top-50 start-50 translate-middle" style="width:100%">Tolak</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop-item col-12 shadow-lg  bg-white">
+                                    <div class="row">
+                                        <div class="shop-gambar col-1"><img src="asset/item-home-gambar.png" width="100%"> </div>
+                                        <div class="col-6">
+                                            <div class="shop-nama">Judul</div>
+                                            <div class="shop-harga">Rp 8.000,00</div>
+                                            <div class="shop-tanggal">Aktif</div>
+                                        </div>
+                                        <div class="col-2">
+                                            <a href="shop-produk.html" class="btn btn-lg btn-success position-relative top-50 start-50 translate-middle" style="width:100%;">Terima</a>
+                                        </div>
+                                        <div class="col-2">
+                                            <a href="shop-produk.html" class="btn btn-lg btn-danger position-relative top-50 start-50 translate-middle" style="width:100%">Tolak</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="container">
+
+
+                            <div class="shop-item col-12 shadow-lg  bg-white">
+                                <div class="row">
+
+                                    <div class="col-7">
+                                        <div class="shop-nama">Nama</div>
+                                        <div class="shop-harga">alasan</div>
+
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="shop-produk.html" class="btn btn-lg btn-success position-relative top-50 start-50 translate-middle" style="width:100%;">Terima</a>
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="shop-produk.html" class="btn btn-lg btn-danger position-relative top-50 start-50 translate-middle" style="width:100%">Tolak</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item col-12 shadow-lg  bg-white">
+                                <div class="row">
+
+                                    <div class="col-7">
+                                        <div class="shop-nama">Nama</div>
+                                        <div class="shop-harga">alasan</div>
+
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="shop-produk.html" class="btn btn-lg btn-success position-relative top-50 start-50 translate-middle" style="width:100%;">Terima</a>
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="shop-produk.html" class="btn btn-lg btn-danger position-relative top-50 start-50 translate-middle" style="width:100%">Tolak</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item col-12 shadow-lg  bg-white">
+                                <div class="row">
+
+                                    <div class="col-7">
+                                        <div class="shop-nama">Nama</div>
+                                        <div class="shop-harga">alasan</div>
+
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="shop-produk.html" class="btn btn-lg btn-success position-relative top-50 start-50 translate-middle" style="width:100%;">Terima</a>
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="shop-produk.html" class="btn btn-lg btn-danger position-relative top-50 start-50 translate-middle" style="width:100%">Tolak</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+    <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="p-5 mt-3" style="background-color: #161E2C;color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div style="font-size: 28px;">CCPP</div>
+                    <div><i class="fas fa-globe"></i> Indonesia , ID</div>
+                    <div><i class="far fa-question-circle"></i> Help & Support</div>
+                </div>
+                <div class="col-2">
+                    <strong style="font-size: 13px;">Product</strong>
+                    <div>Categories</div>
+                    <div>Projects</div>
+                    <div>Local Jobs</div>
+                    <div>Offline Jobs</div>
+                </div>
+                <div class="col-2">
+                    <strong style="font-size: 13px;">About</strong>
+                    <div>About us</div>
+                    <div>How It Works</div>
+                    <div>Security</div>
+                    <div>Investor</div>
+                    <div>Quotes</div>
+                </div>
+                <div class="col-2">
+                    <strong style="font-size: 13px;">Terms</strong>
+                    <div>Privacy Policy</div>
+                    <div>Terms and Conditions</div>
+                    <div>Copyright Policy</div>
+                    <div>Code of Conduct</div>
+                    <div>Fees and Charges</div>
+                </div>
+                <div class="col-2">
+                    <strong style="font-size: 13px;">Apps</strong>
+                    <div><img src="asset/appstore.png" width="80%" alt=""></div>
+                    <div><img src="asset/playsore.png" width="80%" alt=""></div>
+                    <div class="align-middle mt-2"><i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row border-top mt-3">
+                <div class="col-12 mt-2"></div>
+                <div class="col-3">
+                    <strong> 38,262,942</strong> Registered Users
+
+                </div>
+                <div class="col-3">
+
+                    <strong> 20,214,875</strong> Total Product Posted
+                </div>
+                <div class="col-6">
+                    <div style="font-size: 11px;">
+                        CCPP ® is a registered Trademark of CCPP Technology Pty Limited (ACN 142 182 784) Copyright © 2019 CCPP Technology Pty Limited (ACN 142 182 784)
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/fa1d4ae37e.js" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            var triggerTabList = [].slice.call(document.querySelectorAll('#pills-tab a'))
+            triggerTabList.forEach(function(triggerEl) {
+                var tabTrigger = new bootstrap.Tab(triggerEl)
+
+                triggerEl.addEventListener('click', function(event) {
+                    event.preventDefault()
+                    tabTrigger.show()
+                })
+            })
+
+        });
+    </script>
+</body>
+
+</html>

@@ -228,3 +228,13 @@
         .item-penonton:hover {
             box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.157);
         }
+        
+        .event-pesan {
+            background-color: #e7e7e7;
+            color: black;
+            border-radius: 1rem;
+            padding: 5px;
+            display: block;
+            margin-top: 5px;
+            border-radius: 15px;
+        }
