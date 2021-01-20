@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>BiShare - Shop</title>
+    <title>BiShare - Admin</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -49,7 +49,10 @@
                         <a class="nav-link " href="profile.html">Profil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="shop.html">Shop</a>
+                        <a class="nav-link " href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="admin.html">Admin</a>
                     </li>
                 </ul>
 
@@ -67,7 +70,7 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-12 page-title  mt-4 ">Profil</div>
+            <div class="col-12 page-title  mt-4 ">Admin</div>
 
             <div class="bd-example">
                 <!-- Nav tabs -->
@@ -76,7 +79,11 @@
                         <a class="nav-link active" id="pills-home-tab" style="padding: 0px;margin-right: 15px;" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Produk</a>
                     </li>
                     <li class="nav-item ml-3" role="presentation">
-                        <a class="nav-link" id="pills-profile-tab" style="padding: 0px;margin-right: 15px;" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Order</a>
+                        <a class="nav-link" id="pills-profile-tab" style="padding: 0px;margin-right: 15px;" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Akun</a>
+                    </li>
+
+                    <li class="nav-item ml-3" role="presentation">
+                        <a class="nav-link" id="pills-profile-tab" style="padding: 0px;margin-right: 15px;" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Event</a>
                     </li>
 
 
@@ -86,10 +93,8 @@
 
                         <div class="container">
                             <div class="row">
-                                <div class="col-10"></div>
-                                <div class="col-2">
-                                    <a href="shop-produk.html" class="btn btn-lg btn-success" style="width:100%">Add</a>
-                                </div>
+                                <div class="col-10">Verifikasi Produk yang akan di jual</div>
+
 
                                 <div class="shop-item col-12 shadow-lg  bg-white">
                                     <div class="row">
@@ -100,10 +105,10 @@
                                             <div class="shop-tanggal">Aktif</div>
                                         </div>
                                         <div class="col-2">
-                                            <a href="shop-produk.html" class="btn btn-lg btn-primary position-relative top-50 start-50 translate-middle" style="width:100%;">Edit</a>
+                                            <a href="shop-produk.html" class="btn btn-lg btn-success position-relative top-50 start-50 translate-middle" style="width:100%;">Terima</a>
                                         </div>
                                         <div class="col-2">
-                                            <a href="shop-produk.html" class="btn btn-lg btn-danger position-relative top-50 start-50 translate-middle" style="width:100%">Hapus</a>
+                                            <a href="shop-produk.html" class="btn btn-lg btn-danger position-relative top-50 start-50 translate-middle" style="width:100%">Tolak</a>
                                         </div>
                                     </div>
                                 </div>
@@ -116,10 +121,10 @@
                                             <div class="shop-tanggal">Aktif</div>
                                         </div>
                                         <div class="col-2">
-                                            <a href="shop-produk.html" class="btn btn-lg btn-primary position-relative top-50 start-50 translate-middle" style="width:100%;">Edit</a>
+                                            <a href="shop-produk.html" class="btn btn-lg btn-success position-relative top-50 start-50 translate-middle" style="width:100%;">Terima</a>
                                         </div>
                                         <div class="col-2">
-                                            <a href="shop-produk.html" class="btn btn-lg btn-danger position-relative top-50 start-50 translate-middle" style="width:100%">Hapus</a>
+                                            <a href="shop-produk.html" class="btn btn-lg btn-danger position-relative top-50 start-50 translate-middle" style="width:100%">Tolak</a>
                                         </div>
                                     </div>
                                 </div>
@@ -135,33 +140,49 @@
 
                             <div class="shop-item col-12 shadow-lg  bg-white">
                                 <div class="row">
-                                    <div class="shop-gambar col-1"><img src="asset/item-home-gambar.png" width="100%"> </div>
-                                    <div class="col-6">
-                                        <div class="shop-nama">Judul</div>
-                                        <div class="shop-harga">Rp 8.000,00</div>
-                                        <div class="shop-tanggal">Aktif</div>
-                                    </div>
-                                    <div class="col-2">
+
+                                    <div class="col-7">
+                                        <div class="shop-nama">Nama</div>
+                                        <div class="shop-harga">alasan</div>
 
                                     </div>
                                     <div class="col-2">
-                                        <a href="shop-order.html" class="btn btn-lg btn-primary position-relative top-50 start-50 translate-middle" style="width:100%">Detail</a>
+                                        <a href="shop-produk.html" class="btn btn-lg btn-success position-relative top-50 start-50 translate-middle" style="width:100%;">Terima</a>
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="shop-produk.html" class="btn btn-lg btn-danger position-relative top-50 start-50 translate-middle" style="width:100%">Tolak</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="shop-item col-12 shadow-lg  bg-white">
                                 <div class="row">
-                                    <div class="shop-gambar col-1"><img src="asset/item-home-gambar.png" width="100%"> </div>
-                                    <div class="col-6">
-                                        <div class="shop-nama">Judul</div>
-                                        <div class="shop-harga">Rp 8.000,00</div>
-                                        <div class="shop-tanggal">Aktif</div>
-                                    </div>
-                                    <div class="col-2">
+
+                                    <div class="col-7">
+                                        <div class="shop-nama">Nama</div>
+                                        <div class="shop-harga">alasan</div>
 
                                     </div>
                                     <div class="col-2">
-                                        <a href="shop-order.html" class="btn btn-lg btn-primary position-relative top-50 start-50 translate-middle" style="width:100%">Detail</a>
+                                        <a href="shop-produk.html" class="btn btn-lg btn-success position-relative top-50 start-50 translate-middle" style="width:100%;">Terima</a>
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="shop-produk.html" class="btn btn-lg btn-danger position-relative top-50 start-50 translate-middle" style="width:100%">Tolak</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item col-12 shadow-lg  bg-white">
+                                <div class="row">
+
+                                    <div class="col-7">
+                                        <div class="shop-nama">Nama</div>
+                                        <div class="shop-harga">alasan</div>
+
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="shop-produk.html" class="btn btn-lg btn-success position-relative top-50 start-50 translate-middle" style="width:100%;">Terima</a>
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="shop-produk.html" class="btn btn-lg btn-danger position-relative top-50 start-50 translate-middle" style="width:100%">Tolak</a>
                                     </div>
                                 </div>
                             </div>
